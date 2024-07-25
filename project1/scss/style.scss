@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+@import url("../libs/bootstrap/bootstrap.min.css");
+@import url("../fonts/Montserrat/stylesheet.css");
+@import "../libs/bootstrap/bootstrap-grid.min.css";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.container {
+   max-width: 1113px;
+   width: 100%;
+   margin: 0 auto;
+}
+@mixin text($ft,$fw,$fs,$lh,$col) {
+    font-style: $ft;
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: $lh;
+    color: $col;
+}
+@mixin zise($w,$h) {
+    width: $w;
+    height: $h;
+}
+.button {
+    @include zise (200px,45px);
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    &:hover {
+        background-color: red;
+    }
+
+    a {
+        @include text (normal,500,16px,20px,#FFFFFF);
+        
+        text-align: center;
+        text-decoration: none;
+        
+    }
+
+}
+
+
+@import "header";
+@import "home";
+@import "servises";
+@import "about";
+@import "all-servises";
+@import "all-projects";
+@import "video";
+@import "subcribe";
+@import "footer";
+@import "media";

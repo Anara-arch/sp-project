@@ -1,0 +1,199 @@
+@media ( max-width:1440px) {
+.container{
+    max-width: 75%;
+    height: auto;
+}
+}
+@media ( max-width:1200px){
+    .container{
+        max-width: 75%;
+        height: auto;
+    }
+}
+@media ( max-width:1024px){
+
+}
+@media ( max-width:900px){
+
+}
+@media ( max-width:768px){
+
+}
+
+@media ( max-width:480px){
+
+}
+@media ( max-width:320px){
+    .header{
+        padding: 10px 0 10px;
+    }
+    .header__nav{
+        margin-left: 0px;
+    }
+    .home{
+        padding: 315px 0 80px;
+    }
+    .home__subtitle{
+        font-size: 10px;
+    }
+    .home__title{
+        font-size: 20px;
+    }
+    .button{
+        width: 150px;
+        height: 30px;
+        font-size: 10px;
+        border-radius: 5px;
+    }
+    .button a{
+        font-size: 10px;
+    }
+    .servises {
+        padding: 30px 0 30px;
+    }
+    .servises__tittle{
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+    .servises__subtittle{
+        font-size: 8px;
+        margin-bottom: -20px;
+    }
+    .servises__text-tittle{
+        font-size: 8px;
+    }
+    .servises__text-subtittle{
+        font-size: 6px;
+        line-height: 10px;
+    }
+    .servises__circle{
+        border: none;
+    }
+    .servises__circle:after{
+        width: 20px;
+        height: 20px;
+        top: 60%;
+    }
+    .servises__circle:before{
+        width: 30px;
+        height: 30px;
+        top: 60%;
+    }
+    .about{
+        padding: 30px 0 0px;
+    }
+    .about__row {
+        padding-bottom: 20px;
+    }
+    .about__project-row{
+        margin-top: 10px;
+    }
+    .about__tittle{
+        font-size: 12px;
+        line-height: 20px;
+        margin: 0px 0 15px;
+    }
+    .about__subtittle{
+        font-size: 8px;
+        line-height: 10px;
+        margin-bottom: 10px;
+    }
+    .about__link{
+        font-size: 7px;
+    }
+    .about__col-second{
+        width: 120px;
+        height: 240px;
+    }
+    .about__col{
+        margin-right: 10px;
+    }
+    .about__prise{
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .about__col-bot{
+        font-size: 8px;
+        margin-top: 0px;
+    }
+    .all-services {
+        padding: 20px 0 20px;
+    }
+    .all-services__row{
+        margin-bottom: 10px;
+    }
+    .all-services__title{
+        font-size: 12px;
+        line-height: 10px;
+    }
+    .all-services__btn{
+        margin-left: 30px;
+    }
+    .all-services__img{
+        width: 70px;
+    }
+    .h3, h3 {
+        font-size: calc(0.3rem + 0.6vw);
+    }
+    
+    .all-services__col-subtitle{
+        font-size: 6px;
+        line-height: 4px;
+        margin-bottom: 0px;
+    }
+    .all-services__link{
+        font-size: 8px;
+    }
+    .all-services__servicesRow {
+        padding-bottom: 10px;
+    }
+    .all-projects{
+        padding: 10px 0 20px;
+    }
+    .all-projects__title {
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    .all-projects__subtitle {
+        font-size: 8px;
+        line-height: 10px;
+        margin-bottom: 10px;
+    }
+    img, svg {
+        width: 50px;
+        margin-bottom: -30px;
+    }
+    .video {
+        padding: 20px 0 20px;
+        background: url(../img/main/video/Rectangle.png) top left/100% 100% no-repeat;
+    }
+    .video__title {
+        font-size: 12px;
+        line-height: 10px;
+    }
+    .video__subtitle {
+        font-size: 8px;
+        line-height: 6px;
+        margin-bottom: 20px;
+    }
+    .video__box {
+        width: 200px;
+        height: 150px;
+    }
+    .video__play {
+        width: 80px;
+        height: 20px;
+    }
+    .video__play-text {
+        font-size: 6px;
+        line-height: 6px;
+        margin-top: 15px;
+    }
+    .video__circle {
+        width: 10px;
+        height: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 3px;
+    }
+}

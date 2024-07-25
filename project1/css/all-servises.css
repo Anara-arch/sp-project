@@ -1,0 +1,12 @@
+.all-servises {
+  width: 1920px;
+  height: 887px;
+  position: relative;
+  left: 0px;
+  top: 2400px;
+  background-color: aqua;
+}
+.all-servises__kart {
+  width: 1109px;
+  height: 542px;
+}
